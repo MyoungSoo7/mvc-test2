@@ -1,7 +1,6 @@
-package org.example.mvc;
+package lms.mvctest.mvc;
 
-import org.example.mvc.controller.RequestMethod;
-
+import lms.mvctest.mvc.controller.RequestMethod;
 import java.util.Objects;
 
 public class HandlerKey {

@@ -1,7 +1,6 @@
-package org.example.mvc;
+package lms.mvctest.mvc;
 
-import org.example.mvc.view.ModelAndView;
-
+import lms.mvctest.mvc.view.ModelAndView;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 

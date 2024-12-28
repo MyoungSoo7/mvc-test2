@@ -1,4 +1,4 @@
-package org.example;
+package lms.mvctest.oop;
 
 public class PasswordValidator {
 

@@ -1,9 +1,9 @@
-package org.example.mvc;
+package lms.mvctest.mvc;
 
-import org.example.mvc.annotation.RequestMapping;
-import org.example.mvc.controller.RequestMethod;
+import lms.mvctest.mvc.annotation.Controller;
+import lms.mvctest.mvc.annotation.RequestMapping;
+import lms.mvctest.mvc.controller.RequestMethod;
 import org.reflections.Reflections;
-
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
@@ -21,7 +21,7 @@ public class AnnotationHandlerMapping implements HandlerMapping{
     public void initialize() {
         Reflections reflections = new Reflections(basePackage);
 
-        Set<Class<?>> clazzesWithControllerAnnotation = reflections.getTypesAnnotatedWith(org.example.mvc.annotation.Controller.class, true);
+        Set<Class<?>> clazzesWithControllerAnnotation = reflections.getTypesAnnotatedWith(Controller.class, true);
 
         clazzesWithControllerAnnotation.forEach(clazz ->
 

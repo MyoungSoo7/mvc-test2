@@ -1,4 +1,4 @@
-package org.example;
+package lms.mvctest.oop;
 
 import org.passay.CharacterData;
 import org.passay.CharacterRule;

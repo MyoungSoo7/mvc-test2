@@ -1,4 +1,4 @@
-package org.example;
+package lms.mvctest.was;
 
 public class QueryString {
     private final String key;

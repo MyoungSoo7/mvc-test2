@@ -1,5 +1,5 @@
-package lms.mvctest;
- 
+package lms.mvctest.jdbc;
+
 import java.sql.SQLException;
 
 public class UserDao {

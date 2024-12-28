@@ -1,6 +1,6 @@
-package org.example.mvc;
+package lms.mvctest.mvc;
 
-import org.example.mvc.controller.*;
+import lms.mvctest.mvc.controller.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

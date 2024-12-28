@@ -1,4 +1,4 @@
-package org.example;
+package lms.mvctest;
 
 import org.apache.catalina.startup.Tomcat;
 import org.slf4j.Logger;
@@ -14,7 +14,7 @@ public class WebApplicationServer {
         Tomcat tomcat = new Tomcat();
         tomcat.setPort(8080);
 
-        tomcat.addWebapp("/", new File(webappDirLocation).getAbsolutePath());
+        tomcat.addWebapp("", new File(webappDirLocation).getAbsolutePath());
         log.info("configuring app with basedir: {}", new File("./" + webappDirLocation).getAbsolutePath());
 
         tomcat.start();

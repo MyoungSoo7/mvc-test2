@@ -1,4 +1,4 @@
-package org.example.mvc;
+package lms.mvctest.mvc;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

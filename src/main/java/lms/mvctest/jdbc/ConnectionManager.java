@@ -1,4 +1,4 @@
-package lms.mvctest;
+package lms.mvctest.jdbc;
 
 import com.zaxxer.hikari.HikariDataSource;
 

@@ -1,4 +1,4 @@
-package org.example;
+package lms.mvctest.was;
 
 import java.io.BufferedReader;
 import java.io.IOException;

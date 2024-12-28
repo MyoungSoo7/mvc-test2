@@ -1,7 +1,7 @@
-package org.example;
+package lms.mvctest.di;
 
-import org.example.annotation.Controller;
-import org.example.annotation.Inject;
+import lms.mvctest.di.annotation.Controller;
+import lms.mvctest.di.annotation.Inject;
 
 @Controller
 public class UserController {

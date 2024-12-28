@@ -1,7 +1,7 @@
-package org.example;
+package lms.mvctest.was;
 
-import org.example.calculator.domain.Calculator;
-import org.example.calculator.domain.PositiveNumber;
+import lms.mvctest.was.calculator.domain.Calculator;
+import lms.mvctest.was.calculator.domain.PositiveNumber;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

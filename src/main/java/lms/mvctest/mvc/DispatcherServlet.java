@@ -1,13 +1,12 @@
-package org.example.mvc;
+package lms.mvctest.mvc;
 
-import org.example.mvc.controller.RequestMethod;
-import org.example.mvc.view.JspViewResolver;
-import org.example.mvc.view.ModelAndView;
-import org.example.mvc.view.View;
-import org.example.mvc.view.ViewResolver;
+import lms.mvctest.mvc.controller.RequestMethod;
+import lms.mvctest.mvc.view.JspViewResolver;
+import lms.mvctest.mvc.view.ModelAndView;
+import lms.mvctest.mvc.view.View;
+import lms.mvctest.mvc.view.ViewResolver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;

@@ -1,4 +1,4 @@
-package org.example;
+package lms.mvctest.di;
 
 public class Main {
     public static void main(String[] args) {

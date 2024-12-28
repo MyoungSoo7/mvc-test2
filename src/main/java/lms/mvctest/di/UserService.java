@@ -1,6 +1,6 @@
-package org.example;
+package lms.mvctest.di;
 
-import org.example.annotation.Service;
+import lms.mvctest.di.annotation.Service;
 
 @Service
 public class UserService {

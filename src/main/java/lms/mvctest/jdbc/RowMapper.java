@@ -1,4 +1,4 @@
-package lms.mvctest;
+package lms.mvctest.jdbc;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
